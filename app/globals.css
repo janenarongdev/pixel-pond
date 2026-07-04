@@ -1,0 +1,104 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes:
+    pixelpond --default,
+    pixelpond-dark --prefersdark;
+}
+
+@plugin "daisyui/theme" {
+  name: "pixelpond";
+  color-scheme: light;
+  --color-page-bg: #bee7f5;
+  --color-base-100: #fff8ec;
+  --color-base-200: #fbf0dc;
+  --color-base-300: #ebd9b8;
+  --color-base-content: #4a3728;
+  --color-primary: #8b5e3c;
+  --color-primary-content: #fff8ec;
+  --color-secondary: #6fcda4;
+  --color-secondary-content: #0d2e22;
+  --color-accent: #eab308;
+  --color-accent-content: #3a2a00;
+  --color-neutral: #2b4a63;
+  --color-neutral-content: #ffffff;
+  --color-info: #3b82f6;
+  --color-info-content: #ffffff;
+  --color-success: #22c55e;
+  --color-success-content: #052e14;
+  --color-warning: #f59e0b;
+  --color-warning-content: #3a2400;
+  --color-error: #ef4444;
+  --color-error-content: #ffffff;
+  --radius-box: 1.25rem;
+  --radius-field: 0.75rem;
+  --radius-selector: 0.75rem;
+  --depth: 1;
+}
+
+@plugin "daisyui/theme" {
+  name: "pixelpond-dark";
+  color-scheme: dark;
+  --color-page-bg: #0e2233;
+  --color-base-100: #2a2118;
+  --color-base-200: #23190f;
+  --color-base-300: #1a1209;
+  --color-base-content: #f3e6d3;
+  --color-primary: #b07c4f;
+  --color-primary-content: #241505;
+  --color-secondary: #5fbf97;
+  --color-secondary-content: #052e14;
+  --color-accent: #eab308;
+  --color-accent-content: #3a2a00;
+  --color-neutral: #16273a;
+  --color-neutral-content: #ffffff;
+  --color-info: #60a5fa;
+  --color-info-content: #04283a;
+  --color-success: #22c55e;
+  --color-success-content: #052e14;
+  --color-warning: #f59e0b;
+  --color-warning-content: #3a2400;
+  --color-error: #ef4444;
+  --color-error-content: #ffffff;
+  --radius-box: 1.25rem;
+  --radius-field: 0.75rem;
+  --radius-selector: 0.75rem;
+  --depth: 1;
+}
+
+@theme inline {
+  --font-heading: var(--font-pixelify-sans);
+  --font-body: var(--font-nunito);
+}
+
+body {
+  font-family: var(--font-body), sans-serif;
+  background-color: var(--color-page-bg);
+}
+
+h1,
+h2,
+h3,
+h4,
+.card-title,
+.stat-value {
+  font-family: var(--font-heading), sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.font-heading {
+  font-family: var(--font-heading), sans-serif;
+}
+
+.card {
+  transition:
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 10px 24px -8px rgb(0 0 0 / 0.18);
+}
+
+.menu li > a.active {
+  font-weight: 700;
+}

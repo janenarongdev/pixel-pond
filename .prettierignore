@@ -1,0 +1,16 @@
+node_modules
+.next
+out
+build
+next-env.d.ts
+package-lock.json
+public
+
+# project planning docs — hand-authored, not app source
+*.md
+!README.md
+*.png
+assets/
+
+# harness/tooling config, not app source
+.claude/
