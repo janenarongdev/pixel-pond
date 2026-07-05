@@ -27,8 +27,8 @@ export function Navbar({
           <Image
             src="/assets/logo/pixel-pond-logo.png"
             alt="Pixel Pond"
-            width={300}
-            height={300}
+            width={100}
+            height={100}
             unoptimized
           />
           Pixel Pond
@@ -39,8 +39,8 @@ export function Navbar({
           <Image
             src="/assets/icons/gold.png"
             alt="Gold"
-            width={200}
-            height={200}
+            width={50}
+            height={50}
             unoptimized
           />
           <span className="font-heading text-sm">
