@@ -35,8 +35,8 @@ export default async function LoginPage() {
               <Image
                 src="/assets/icons/github.png"
                 alt=""
-                width={60}
-                height={60}
+                width={30}
+                height={30}
                 unoptimized
               />
               Sign in with GitHub
