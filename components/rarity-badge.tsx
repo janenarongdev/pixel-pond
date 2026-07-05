@@ -24,8 +24,8 @@ export function RarityBadge({ rarity }: { rarity: string }) {
       <Image
         src={`/assets/badges/${rarity}.png`}
         alt={label}
-        width={14}
-        height={14}
+        width={36}
+        height={36}
         unoptimized
       />
       {label}
