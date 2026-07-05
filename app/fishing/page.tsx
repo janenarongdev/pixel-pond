@@ -43,7 +43,7 @@ export default async function FishingPage() {
       <div className="card bg-base-100 mb-8 shadow">
         <figure className="relative h-64 w-full">
           <Image
-            src="/assets/background/lake-day.png"
+            src="/assets/background/tranquil-alpine-lake-view"
             alt="Pixel Lake"
             fill
             sizes="100vw"
