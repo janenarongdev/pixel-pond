@@ -38,8 +38,8 @@ export function Sidebar() {
               <Image
                 src={item.icon}
                 alt=""
-                width={18}
-                height={18}
+                width={30}
+                height={30}
                 unoptimized
               />
               {item.label}
