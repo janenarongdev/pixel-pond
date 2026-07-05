@@ -16,8 +16,8 @@ export default async function LoginPage() {
           <Image
             src="/assets/logo/pixel-pond-logo.png"
             alt="Pixel Pond"
-            width={120}
-            height={120}
+            width={360}
+            height={360}
             unoptimized
           />
           <h1 className="card-title">Welcome Back!</h1>
