@@ -9,7 +9,7 @@ export default async function LoginPage() {
   return (
     <div
       className="relative flex min-h-screen items-center justify-center bg-cover bg-center p-4"
-      style={{ backgroundImage: "url(/assets/background/lake-day.png)" }}
+      style={{ backgroundImage: "url(/assets/background/Tranquil alpine lake view)" }}
     >
       <div className="card bg-base-100 w-full max-w-sm shadow-xl">
         <div className="card-body items-center text-center">
