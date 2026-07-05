@@ -23,7 +23,7 @@ export default async function FishingPage() {
   return (
     <AppShell username={username} avatarUrl={avatarUrl} gold={profile.gold}>
       <h1 className="mb-1 text-2xl font-bold">Fishing Spot</h1>
-      <p className="text-base-content/60 mb-6">Pixel Lake</p>
+      <p className="mb-6 text-2xl text-base-content/70">Pixel Lake</p>
 
       <div className="mb-6 flex flex-wrap gap-4">
         <div className="stat bg-base-100 rounded-box shadow">
